@@ -1,0 +1,18 @@
+/* navbar css started*/
+
+@media only screen and (max-width: 991px){
+    .navbar-nav a{
+        border-bottom: 1px dotted #000;
+    }
+    .navbar-nav a:nth-last-child(1){
+        border: none;
+    }
+    .navbar-nav a:hover{
+        padding-left: 15px;
+    }
+    .navbar-nav{
+        margin: 0px 15px !important;
+    }
+}
+
+/* navbar css ended*/
