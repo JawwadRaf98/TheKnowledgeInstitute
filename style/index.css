@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Merriweather', serif;
+}
 p{
     margin: 0;
 }
@@ -34,6 +37,99 @@ p{
     color:black;
 }
 /* Header Css end */
+
+/* Slider Css Star  */
+.carousel-item img{
+    height: 450px;
+    margin-top: 50px;
+}
+.welcome{
+    background-color: rgb(241, 234, 234);
+    width: 100%;
+    padding: 50px ;
+    text-align: center;
+    margin: auto;
+    height: auto;
+}
+.welcome img{
+    width: 90%;
+}
+
+.welcome h5{
+  
+    padding: 20px 0;
+    font-size: 3vh;
+    color: rgb(179, 4, 195);
+}
+/* Slider Css end  */
+
+/* course_card start */
+.courses{
+    background-color: rgb(241, 234, 234);
+    padding: 100px 0px;
+    
+}
+.card img{
+    height: 170px;
+}
+.course_card, .staff_card{
+    
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px black;
+    /* border: 1px so   lid black; */
+    width: 100%;
+    height: auto;
+    margin: 15px 0px;
+}
+/* .course_card:hover{
+    transform: rotateX('360');
+} */
+.course_sub_heading{
+    color: black;
+    font-weight: bold;
+}
+.classes{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.go_to_link{
+    padding-top: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.go_to_link a{
+    color: rgb(153, 0, 255);
+}
+.go_to_link a:hover{
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black  !important;
+    color: rgb(12, 11, 12);
+}
+/* course_card end */
+
+/* roduction css start */
+.introduction{
+    background-color: rgba(250, 203, 203, 0.274);
+    padding: 100px 30px;
+}
+.heading h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    color: blue;
+    padding: 20px 0;
+
+}
+.our_staff{
+    background-color: rgba(250, 203, 203, 0.274);
+    padding: 100px 0;
+}
+
+.bold{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 
 
 /* Footer Css  */
