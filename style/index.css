@@ -1,4 +1,6 @@
 @import url("responsive.css");
+@import url("contact.css");
+@import url("courses.css");
 *{
     margin: 0 ;
     padding: 0;
@@ -98,7 +100,7 @@ p{
     text-align: center;
 }
 .go_to_link a{
-    color: rgb(153, 0, 255);
+    color: rgb(153, 0, 255) !important;
 }
 .go_to_link a:hover{
     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black  !important;
@@ -128,6 +130,19 @@ p{
     font-weight: bold;
     font-style: italic;
 }
+
+/* contact_us start */
+.contact_us{
+    padding-top: 100px;
+    background-color: rgb(241, 234, 234);
+    text-align: center;
+}
+.contact_us a{
+    font-size: larger;
+    color: rgb(248, 4, 4);
+    text-decoration: none;
+}
+/* contact_us end */
 
 
 
@@ -199,6 +214,10 @@ text-transform:capitalize;
     text-align: right;
     padding: 5px 15px;
     font-weight: bold;
+}
+svg{
+    background-color: rgb(241, 234, 234);
+
 }
 /* Footer Css end */
 
