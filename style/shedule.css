@@ -1,0 +1,57 @@
+.shedule{
+    padding-top: 140px;
+    /* border:1px solid black; */
+    background-color: rgb(241, 234, 234);
+}
+h1{
+    padding: 50px;
+    margin-bottom: 0;
+}
+h4, h5{
+    text-transform: capitalize;
+    color: blueviolet;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.table_head {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px 0px;
+    background-color: rgba(236, 208, 208, 0.561);
+}
+.table_head_row{
+    border-radius: 10px 10px 0 0;
+    border: 1px solid black;
+    text-transform: capitalize;
+    border-bottom:3px solid black ;
+}
+.pm{
+    text-transform: uppercase;
+}
+.table_data{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0px;
+    /* border: 1px solid black; */
+    font-weight: 650;
+}
+.table .table_data_row{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px dotted black;
+}
+.table .table_data_row:last-child{
+    border-bottom:1px solid #000;border-radius: 0 0 10px 10px;
+
+}
+.table .table_data_row:nth-child(even){
+    background-color: rgba(179, 248, 222, 0.1); 
+}
+.table .table_data_row{
+    background-color: rgba(255, 253, 129, 0.3);
+}
+.table .table_data_row:hover{
+    background-color: rgba(177, 171, 171, 0.459);
+}
