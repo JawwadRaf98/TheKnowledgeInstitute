@@ -50,3 +50,6 @@
     max-height: 350px;
     overflow: auto  ;
 }
+section{
+margin: 0;
+}
